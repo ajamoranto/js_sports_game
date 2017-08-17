@@ -6,10 +6,12 @@
   text-shadow: 2px 2px black;
 }
 body {
+  display: flex;
   background-image: url('https://ak5.picdn.net/shutterstock/videos/473089/thumb/1.jpg?i10c=img.resize(height:160)');
   background-repeat: no-repeat;
   background-size: cover;
   background-color: black;
+  justify-content: center;
 }
 
 button {
@@ -29,6 +31,19 @@ h2 {
   font-weight: lighter;
 }
 
+.left {
+  text-align: left;
+}
+
 .right {
   text-align: right;
+}
+
+#content {
+  display: flex;
+  background-color: rgba(211, 211, 211, 0.4);
+  width: 70%;
+  text-align: center;
+  padding: 20px;
+  flex-wrap: wrap;
 }
