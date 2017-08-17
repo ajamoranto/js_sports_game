@@ -23,7 +23,7 @@
     shotSound.play();
     oneShots.innerHTML = parseInt(oneShots.innerHTML) + 1
 
-    shot = (Math.floor(Math.random() * 2) == 0);
+    let shot = (Math.floor(Math.random() * 2) == 0);
     if (shot){
       oneGoals.innerHTML = parseInt(oneGoals.innerHTML) + 1;
       scoreSound.play();
@@ -36,7 +36,7 @@
 
     shotSound.play();
     twoShots.innerHTML = parseInt(twoShots.innerHTML) + 1
-    shot = (Math.floor(Math.random() * 2) == 0);
+    let shot = (Math.floor(Math.random() * 2) == 0);
     if (shot){
       twoGoals.innerHTML = parseInt(twoGoals.innerHTML) + 1;
       scoreSound.play();
