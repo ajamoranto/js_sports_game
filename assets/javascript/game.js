@@ -50,9 +50,9 @@
     buzzer.play();
 
     if (oneGoals.innerHTML > twoGoals.innerHTML) {
-      alert("The Fighting Mongooses Win!")
+      alert("Fighting Mongooses Win!")
     } else if (twoGoals.innerHTML > oneGoals.innerHTML) {
-      alert("Coney Island Whitefish Wins!")
+      alert("Coney Island Whitefish Win!")
     } else {
       alert("No one likes a draw...")
     }
