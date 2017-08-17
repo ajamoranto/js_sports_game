@@ -47,3 +47,9 @@ h2 {
   padding: 20px;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 700px) {
+  .right {
+    text-align: left;
+  }
+}
